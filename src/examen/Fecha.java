@@ -1,8 +1,21 @@
 package examen;
+/**
+ * 
+ * Clase que nos crea un objeto fecha
+ * @author daw113
+ *@version 1.0
+ */
 
 public class Fecha {
-	public static boolean fechaValida;
-
+	public static boolean fechaValida;//variable booleana fecha valida
+	
+/**
+ * Método que nos indica si una fecha es válida o no
+ * @param anio
+ * @param mes
+ * @param dia
+ * @return un booleano que será verdadero o falso según la fecha sea válida
+ */
 	public static boolean validarFecha(int anio, int mes, int dia) {
 		fechaValida = false;
 		if ((dia > 0) && (mes > 0) && (anio > 0)) {
