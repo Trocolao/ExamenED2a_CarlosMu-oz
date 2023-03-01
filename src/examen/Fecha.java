@@ -31,4 +31,8 @@ public class Fecha {
 		}
 		return fechaValida;
 	}
+	public static int suma(int a,int b) {
+		int c=a+b;
+		return c;
+	}
 }
